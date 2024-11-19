@@ -31,7 +31,7 @@ Assuming your environment is setup correctly, you can then use ollama: in your p
 
 MIT License
 
-Copyright (c) 2023 David J Goehrig
+Copyright (c) 2024 David J Goehrig
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
