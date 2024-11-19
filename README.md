@@ -13,7 +13,20 @@ Getting Started
 		proplists:get_value(<<"response">>, json:decode(X)) ]) end),
 	ollama:generate(<<"write me a poem">>).
 
-Basicall
+Basically, the pattern is start the server, register a function or module:function using
+response/1 or response/2 as your handler, and then generate/1 a prompt or embed/1 some input. You can stop/0 at any time.
+
+Installing
+----------
+
+To use this module you should first install beamer: https://github.com/cthulhuology/beamer
+
+Then you can do the following:
+
+	beamer deps
+	beamer make
+
+Assuming your environment is setup correctly, you can then use ollama: in your projects.
 
 
 MIT License
